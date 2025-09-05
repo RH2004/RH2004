@@ -116,10 +116,7 @@
 
 ---
 
-### GitHub Stats:
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rh2004&show_icons=true&locale=en" alt="rh2004" />
-</p>
+
 
 ### Top Languages:
 <p align="center">
