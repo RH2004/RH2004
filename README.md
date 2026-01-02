@@ -1,152 +1,102 @@
-<h1 align="center">Hi 👋, I'm Reda HEDDAD</h1>
-<h3 align="center">A passionate Computer Science student and aspiring AI scientist from Morocco</h3> <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=rh2004&label=Profile%20views&color=0e75b6&style=flat" alt="rh2004" />
-</p> <p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=rh2004" alt="rh2004" />
-  </a>
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20👋,%20I'm%20Reda%20HEDDAD&fontSize=50&animation=fadeIn&fontAlignY=35" width="100%" />
+</div>
 
+<div align="center">
+  <h3>🚀 Computer Science Student | Aspiring AI Scientist | Full-Stack Enthusiast</h3>
+  <p><i>"Blending creativity with logic to solve real-world problems."</i></p>
+</div>
 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=rh2004&label=Profile%20views&color=0e75b6&style=flat-square" alt="rh2004" />
+  <img src="https://img.shields.io/github/followers/RH2004?label=Followers&style=flat-square&color=blue" alt="Followers" />
+</div>
 
+---
 
-🌱 I’m currently learning:
+### 💫 About Me
 
-•
-Full-stack development (React, Node.js, PostgreSQL )
+I am a passionate **Computer Science student** from Morocco with a deep interest in **Artificial Intelligence** and **Data Science**. I love building interactive dashboards, solving complex ML problems, and crafting seamless full-stack applications.
 
-•
-Machine Learning & Data Science (PyTorch, TensorFlow, Scikit-learn)
+- 🌱 **Currently Learning:** Advanced Deep Learning (PyTorch/TensorFlow) & Spanish (A1-A2)
+- 👯 **Looking to Collaborate:** AI research, predictive modeling, and applied Data Science projects
+- 🤝 **Seeking Help With:** Scaling ML models and production-level deployment
+- 💬 **Ask Me About:** Python, Streamlit, PostgreSQL, and CRM/Analytics tools
+- ⚡ **Fun Fact:** I enjoy storytelling in fantasy worlds where logic meets imagination.
 
-•
-Spanish (A1–A2, aiming for B2)
+---
 
-👯 I’m looking to collaborate on:
+### 🛠️ Tech Stack & Tools
 
-•
-AI and Data Science projects – especially in predictive modeling, deep learning, and applied research
+<div align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+</div>
 
-🤝 I’m looking for help with:
+<br/>
 
-•
-Advanced ML research & deployment – scaling models and integrating them into real-world applications
-
-👨‍💻 All of my projects are available at:
-
-https://github.com/RH2004
-
-💬 Ask me about:
-
-•
-Python, Streamlit dashboards, Data Science, AI projects, Postgres, CRM/Analytics tools
-
-📫 How to reach me:
-
-•
-redaheddad2004@gmail.com
-
-⚡ Fun fact:
-
-•
-I love blending creativity with logic – whether it’s designing dashboards, solving AI problems, or storytelling with overpowered characters in fantasy worlds.
-
-
-
-
-Connect with me:
-
+<details>
+<summary><b>View All Languages & Tools</b></summary>
 <p align="left">
-<a href="https://codepen.io/r-heddad/pens/showcase" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="CodePen" height="30" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" alt="angular" width="40" height="40"/>
+</p>
+</details>
+
+---
+
+### 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=rh2004&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=rh2004&show_icons=true&theme=radical&hide_border=true&layout=compact" width="48%" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rh2004&theme=radical&hide_border=true" width="100%" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=rh2004&theme=radical&no-bg=true&margin-w=15" width="100%" />
+</div>
+
+---
+
+### 📫 Connect with Me
+
+<div align="center">
+  <a href="mailto:redaheddad2004@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://www.linkedin.com/in/reda-heddad-7bb686258/" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+  <a href="https://www.linkedin.com/in/reda-heddad-7bb686258/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-</p>
-
-
-
-
-Languages and Tools:
-
-<p align="left">
-<a href="https://angular.io" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" alt="angular" width="40" height="40"/> 
-  </a>  
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> 
-  </a>  
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> 
-  </a>  
-  <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/chartjs/chartjs-original.svg" alt="chartjs" width="40" height="40"/> 
-  </a>  
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
-  </a>  
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
-  </a>  
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> 
-  </a>  
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> 
-  </a>  
-  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> 
-  </a>  
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
-  </a>  
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
-  </a>  
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
-  </a>  
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
-  </a>  
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> 
-  </a>  
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
-  </a>  
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
-  </a>  
-  <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="reactnative" width="40" height="40"/> 
-  </a>  
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> 
-  </a>  
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> 
-  </a>  
-  <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> 
+  <a href="https://codepen.io/r-heddad/pens/showcase">
+    <img src="https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" />
   </a>
-</p>
+</div>
 
+<br/>
 
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="100%" />
+</div>
 
-
-Top Languages:
-
-<p align="center">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=rh2004&show_icons=true&locale=en&layout=compact" alt="rh2004" />
-</p>
-
-Streak Stats:
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rh2004" alt="rh2004" />
-</p>
-
-
-
-
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
+</div>
