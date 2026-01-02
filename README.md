@@ -1,46 +1,62 @@
 <h1 align="center">Hi 👋, I'm Reda HEDDAD</h1>
-<h3 align="center">A passionate Computer Science student and aspiring AI scientist from Morocco</h3>
-
-<p align="left">
+<h3 align="center">A passionate Computer Science student and aspiring AI scientist from Morocco</h3> <p align="left">
   <img src="https://komarev.com/ghpvc/?username=rh2004&label=Profile%20views&color=0e75b6&style=flat" alt="rh2004" />
-</p>
-
-<p align="left">
+</p> <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=rh2004" alt="rh2004" />
   </a>
 </p>
 
----
 
-### 🌱 I’m currently learning:
-- **Full-stack development** (React, Node.js, PostgreSQL)
-- **Machine Learning & Data Science** (PyTorch, TensorFlow, Scikit-learn)
-- **Spanish** (A1–A2, aiming for B2)
 
-### 👯 I’m looking to collaborate on:
-- **AI and Data Science projects** – especially in predictive modeling, deep learning, and applied research
 
-### 🤝 I’m looking for help with:
-- **Advanced ML research & deployment** – scaling models and integrating them into real-world applications
+🌱 I’m currently learning:
 
-### 👨‍💻 All of my projects are available at:
-[https://github.com/RH2004](https://github.com/RH2004)
+•
+Full-stack development (React, Node.js, PostgreSQL )
 
-### 💬 Ask me about:
-- **Python, Streamlit dashboards, Data Science, AI projects, Postgres, CRM/Analytics tools**
+•
+Machine Learning & Data Science (PyTorch, TensorFlow, Scikit-learn)
 
-### 📫 How to reach me:
-- **redaheddad2004@gmail.com**
+•
+Spanish (A1–A2, aiming for B2)
 
-### ⚡ Fun fact:
-- I love blending **creativity with logic** – whether it’s designing dashboards, solving AI problems, or storytelling with overpowered characters in fantasy worlds.
+👯 I’m looking to collaborate on:
 
----
+•
+AI and Data Science projects – especially in predictive modeling, deep learning, and applied research
 
-### Connect with me:
+🤝 I’m looking for help with:
+
+•
+Advanced ML research & deployment – scaling models and integrating them into real-world applications
+
+👨‍💻 All of my projects are available at:
+
+https://github.com/RH2004
+
+💬 Ask me about:
+
+•
+Python, Streamlit dashboards, Data Science, AI projects, Postgres, CRM/Analytics tools
+
+📫 How to reach me:
+
+•
+redaheddad2004@gmail.com
+
+⚡ Fun fact:
+
+•
+I love blending creativity with logic – whether it’s designing dashboards, solving AI problems, or storytelling with overpowered characters in fantasy worlds.
+
+
+
+
+Connect with me:
+
 <p align="left">
-  <a href="https://codepen.io/r-heddad/pens/showcase" target="blank">
+<a href="https://codepen.io/r-heddad/pens/showcase" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="CodePen" height="30" width="40" />
   </a>
   <a href="https://www.linkedin.com/in/reda-heddad-7bb686258/" target="blank">
@@ -48,12 +64,14 @@
   </a>
 </p>
 
----
 
-### Languages and Tools:
+
+
+Languages and Tools:
+
 <p align="left">
-  <a href="https://angular.io" target="_blank" rel="noreferrer"> 
-    <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> 
+<a href="https://angular.io" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" alt="angular" width="40" height="40"/> 
   </a>  
   <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> 
@@ -62,7 +80,7 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> 
   </a>  
   <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> 
-    <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/chartjs/chartjs-original.svg" alt="chartjs" width="40" height="40"/> 
   </a>  
   <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
@@ -101,7 +119,7 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
   </a>  
   <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> 
-    <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="reactnative" width="40" height="40"/> 
   </a>  
   <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> 
     <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> 
@@ -114,19 +132,21 @@
   </a>
 </p>
 
----
 
 
 
-### Top Languages:
+Top Languages:
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rh2004&show_icons=true&locale=en&layout=compact" alt="rh2004" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=rh2004&show_icons=true&locale=en&layout=compact" alt="rh2004" />
 </p>
 
-### Streak Stats:
+Streak Stats:
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rh2004&" alt="rh2004" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rh2004" alt="rh2004" />
 </p>
 
----
+
+
 
