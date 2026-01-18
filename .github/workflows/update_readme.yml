@@ -1,4 +1,4 @@
-name: Update README Dynamic Images
+name: Update README Dynamic Images (Enhanced)
 
 on:
   schedule:
@@ -19,30 +19,58 @@ jobs:
         run: |
           mkdir -p assets/readme
 
-      - name: Download and cache dynamic images
+      - name: Download and cache dynamic images with retry
         run: |
-          # Define username for dynamic links
+          # Function to download an image with retries
+          download_with_retry() {
+            local url="$1"
+            local output_file="$2"
+            local max_retries=5
+            local delay=5
+            
+            for i in $(seq 1 $max_retries); do
+              echo "Attempt $i/$max_retries: Downloading $output_file from $url"
+              # -s: silent, -f: fail on server errors, -o: output file
+              if curl -s -f -o "$output_file.tmp" "$url"; then
+                if [ -s "$output_file.tmp" ]; then
+                  mv "$output_file.tmp" "$output_file"
+                  echo "Successfully downloaded and cached $output_file."
+                  return 0
+                else
+                  echo "Downloaded file is empty. Retrying in $delay seconds..."
+                fi
+              else
+                echo "Download failed (curl error). Retrying in $delay seconds..."
+              fi
+              sleep $delay
+            done
+            
+            echo "Failed to download $output_file after $max_retries attempts. Keeping existing version."
+            rm -f "$output_file.tmp"
+            return 0 
+          }
+
           USERNAME="rh2004"
           
           # Header and Footer
-          curl -o assets/readme/header.svg "https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20👋,%20I'm%20Reda%20HEDDAD&fontSize=50&animation=fadeIn&fontAlignY=35"
-          curl -o assets/readme/footer.svg "https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"
+          download_with_retry "https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20👋,%20I'm%20Reda%20HEDDAD&fontSize=50&animation=fadeIn&fontAlignY=35" "assets/readme/header.svg"
+          download_with_retry "https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" "assets/readme/footer.svg"
           
           # Profile Views
-          curl -o assets/readme/profile_views.svg "https://komarev.com/ghpvc/?username=$USERNAME&label=Profile%20views&color=0e75b6&style=flat-square"
+          download_with_retry "https://komarev.com/ghpvc/?username=$USERNAME&label=Profile%20views&color=0e75b6&style=flat-square" "assets/readme/profile_views.svg"
           
-          # GitHub Readme Stats (Stats Card and Top Langs )
-          curl -o assets/readme/stats_card.svg "https://github-readme-stats-sigma-five.vercel.app/api?username=$USERNAME&show_icons=true&theme=radical&hide_border=true&count_private=true"
-          curl -o assets/readme/top_langs.svg "https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=$USERNAME&show_icons=true&theme=radical&hide_border=true&layout=compact"
+          # GitHub Readme Stats
+          download_with_retry "https://github-readme-stats-sigma-five.vercel.app/api?username=$USERNAME&show_icons=true&theme=radical&hide_border=true&count_private=true" "assets/readme/stats_card.svg"
+          download_with_retry "https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=$USERNAME&show_icons=true&theme=radical&hide_border=true&layout=compact" "assets/readme/top_langs.svg"
           
           # GitHub Streak
-          curl -o assets/readme/streak_stats.svg "https://github-readme-streak-stats.herokuapp.com/?user=$USERNAME&theme=radical&hide_border=true"
+          download_with_retry "https://github-readme-streak-stats.herokuapp.com/?user=$USERNAME&theme=radical&hide_border=true" "assets/readme/streak_stats.svg"
           
           # GitHub Trophies
-          curl -o assets/readme/trophy.svg "https://github-profile-trophy.vercel.app/?username=$USERNAME&theme=radical&no-bg=true&margin-w=15"
+          download_with_retry "https://github-profile-trophy.vercel.app/?username=$USERNAME&theme=radical&no-bg=true&margin-w=15" "assets/readme/trophy.svg"
           
           # Quote
-          curl -o assets/readme/quote.svg "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"
+          download_with_retry "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" "assets/readme/quote.svg"
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
