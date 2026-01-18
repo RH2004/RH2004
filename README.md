@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20👋,%20I'm%20Reda%20HEDDAD&fontSize=50&animation=fadeIn&fontAlignY=35" width="100%" />
+  <img src="./assets/readme/header.svg" width="100%" />
 </div>
 
 <div align="center">
@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=rh2004&label=Profile%20views&color=0e75b6&style=flat-square" alt="rh2004" />
+  <img src="./assets/readme/profile_views.svg" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/RH2004?label=Followers&style=flat-square&color=blue" alt="Followers" />
 </div>
 
@@ -18,7 +18,7 @@
 
 I am a passionate **Computer Science student** from Morocco with a deep interest in **Artificial Intelligence** and **Data Science**. I love building interactive dashboards, solving complex ML problems, and crafting seamless full-stack applications.
 
-- 🌱 **Currently Learning:** Advanced Deep Learning (PyTorch/TensorFlow) & Spanish (A1-A2)
+- 🌱 **Currently Learning:** Advanced Deep Learning (PyTorch/TensorFlow ) & Spanish (A1-A2)
 - 👯 **Looking to Collaborate:** AI research, predictive modeling, and applied Data Science projects
 - 🤝 **Seeking Help With:** Scaling ML models and production-level deployment
 - 💬 **Ask Me About:** Python, Streamlit, PostgreSQL, and CRM/Analytics tools
@@ -40,7 +40,8 @@ I am a passionate **Computer Science student** from Morocco with a deep interest
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
 </div>
 
-<br/>
+  
+
 
 <details>
 <summary><b>View All Languages & Tools</b></summary>
@@ -63,16 +64,16 @@ I am a passionate **Computer Science student** from Morocco with a deep interest
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=rh2004&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=rh2004&show_icons=true&theme=radical&hide_border=true&layout=compact" width="48%" />
+  <img src="./assets/readme/stats_card.svg" alt="GitHub Stats" width="48%" />
+  <img src="./assets/readme/top_langs.svg" alt="Top Languages" width="48%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rh2004&theme=radical&hide_border=true" width="100%" />
+  <img src="./assets/readme/streak_stats.svg" alt="GitHub Streak" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rh2004&theme=radical&no-bg=true&margin-w=15" width="100%" />
+  <img src="./assets/readme/trophy.svg" alt="GitHub Trophies" width="100%" />
 </div>
 
 ---
@@ -91,12 +92,13 @@ I am a passionate **Computer Science student** from Morocco with a deep interest
   </a>
 </div>
 
-<br/>
+  
+
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="100%" />
+  <img src="./assets/readme/quote.svg" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
+  <img src="./assets/readme/footer.svg" width="100%" />
 </div>
