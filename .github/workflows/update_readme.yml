@@ -2,9 +2,8 @@ name: Update README Dynamic Images (Enhanced)
 
 on:
   schedule:
-    # Runs every day at 00:00 UTC
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Runs automatically every day at midnight
+  workflow_dispatch:    # Allows you to run it manually if you want
 
 jobs:
   update-images:
@@ -16,61 +15,49 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up directory
-        run: |
-          mkdir -p assets/readme
+        run: mkdir -p assets/readme
 
       - name: Download and cache dynamic images with retry
         run: |
-          # Function to download an image with retries
           download_with_retry() {
             local url="$1"
             local output_file="$2"
             local max_retries=5
             local delay=5
-            
             for i in $(seq 1 $max_retries); do
-              echo "Attempt $i/$max_retries: Downloading $output_file from $url"
-              # -s: silent, -f: fail on server errors, -o: output file
+              echo "Attempt $i/$max_retries: Downloading $output_file"
               if curl -s -f -o "$output_file.tmp" "$url"; then
                 if [ -s "$output_file.tmp" ]; then
                   mv "$output_file.tmp" "$output_file"
-                  echo "Successfully downloaded and cached $output_file."
+                  echo "Success!"
                   return 0
-                else
-                  echo "Downloaded file is empty. Retrying in $delay seconds..."
                 fi
-              else
-                echo "Download failed (curl error). Retrying in $delay seconds..."
               fi
+              echo "Failed, retrying in $delay seconds..."
               sleep $delay
             done
-            
-            echo "Failed to download $output_file after $max_retries attempts. Keeping existing version."
+            echo "All retries failed. Keeping old version."
             rm -f "$output_file.tmp"
-            return 0 
+            return 0
           }
 
           USERNAME="rh2004"
           
-          # Header and Footer
+          # Header & Footer
           download_with_retry "https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20👋,%20I'm%20Reda%20HEDDAD&fontSize=50&animation=fadeIn&fontAlignY=35" "assets/readme/header.svg"
           download_with_retry "https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" "assets/readme/footer.svg"
           
-          # Profile Views
-          download_with_retry "https://komarev.com/ghpvc/?username=$USERNAME&label=Profile%20views&color=0e75b6&style=flat-square" "assets/readme/profile_views.svg"
-          
-          # GitHub Readme Stats
+          # Stats & Langs
           download_with_retry "https://github-readme-stats-sigma-five.vercel.app/api?username=$USERNAME&show_icons=true&theme=radical&hide_border=true&count_private=true" "assets/readme/stats_card.svg"
           download_with_retry "https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=$USERNAME&show_icons=true&theme=radical&hide_border=true&layout=compact" "assets/readme/top_langs.svg"
           
-          # GitHub Streak
+          # Streak & Trophies (Using working mirror for trophies )
           download_with_retry "https://github-readme-streak-stats.herokuapp.com/?user=$USERNAME&theme=radical&hide_border=true" "assets/readme/streak_stats.svg"
+          download_with_retry "https://github-profile-trophy.screw-hand.vercel.vercel.app/?username=$USERNAME&theme=radical&no-bg=true&margin-w=15" "assets/readme/trophy.svg"
           
-          # GitHub Trophies
-          download_with_retry "https://github-profile-trophy.vercel.app/?username=$USERNAME&theme=radical&no-bg=true&margin-w=15" "assets/readme/trophy.svg"
-          
-          # Quote
+          # Quote & Views
           download_with_retry "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" "assets/readme/quote.svg"
+          download_with_retry "https://komarev.com/ghpvc/?username=$USERNAME&label=Profile%20views&color=0e75b6&style=flat-square" "assets/readme/profile_views.svg"
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
