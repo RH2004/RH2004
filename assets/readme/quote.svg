@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Machines as simple as thermostats can be said to have beliefs.</h3>
-          <p>- John McCarthy (computer scientist)</p>
+          <h3>When you find you have to add a feature to a program, and the program's code is not structured in a convenient way to add the feature, first refactor the program to make it easy to add the feature, then add the feature.</h3>
+          <p>- Kent Beck</p>
         </div>
       </div>
     </foreignObject>
