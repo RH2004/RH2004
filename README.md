@@ -72,9 +72,7 @@ I am a passionate **Computer Science student** from Morocco with a deep interest
   <img src="./assets/readme/streak_stats.svg" alt="GitHub Streak" width="100%" />
 </div>
 
-<div align="center">
-  <img src="./assets/readme/trophy.svg" alt="GitHub Trophies" width="100%" />
-</div>
+
 
 ---
 
