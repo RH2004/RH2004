@@ -4,6 +4,7 @@
 
 
 
+
 <div align="center">
   <h3>🚀 Computer Science Student | Aspiring AI Scientist | Full-Stack Enthusiast</h3>
   <p><i>"Blending creativity with logic to solve real-world problems."</i></p>
