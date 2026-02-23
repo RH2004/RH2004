@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>By understanding a machine-oriented language, the programmer will tend to use a much more efficient method; it is much closer to reality.</h3>
-          <p>- Donald Knuth</p>
+          <h3>For most software, efficiency just does not matter.</h3>
+          <p>- Daniel T. Barry</p>
         </div>
       </div>
     </foreignObject>
