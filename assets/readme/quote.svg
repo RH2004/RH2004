@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>It's fun to sit at a terminal and let the code flow. It sounds strange, but it just comes out my brain; once I'm started, I don't have to think about it.</h3>
-          <p>- Gary Kildall</p>
+          <h3>W​henever I have to think to understand what the code is doing, I ask myself if I can refactor the code to make that understanding more immediately apparent.</h3>
+          <p>- Martin Fowler</p>
         </div>
       </div>
     </foreignObject>
