@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>The ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of the effort to write new code.</h3>
-          <p>- Robert C. Martin</p>
+          <h3>Testing can be a very effective way to show the presence of bugs, but it is hopelessly inadequate for showing their absence.</h3>
+          <p>- Edsger W. Dijkstra</p>
         </div>
       </div>
     </foreignObject>
