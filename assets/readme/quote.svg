@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Instead of the progression of tens, I have for many years used the simplest progression of all, which proceeds by twos, having found that it is useful for the perfection of the science of numbers.</h3>
-          <p>- Gottfried Wilhelm Leibniz</p>
+          <h3>Maybe "just one little global variable" isn't too unmanageable, but that style leads to code that is useless except to its original programmer.</h3>
+          <p>- Bjarne Stroustrup</p>
         </div>
       </div>
     </foreignObject>
