@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Story in a game is like a story in a porn movie. It's expected to be there, but it's not that important.</h3>
-          <p>- John Carmack</p>
+          <h3>Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration.</h3>
+          <p>- Stan Kelly-Bootle</p>
         </div>
       </div>
     </foreignObject>
