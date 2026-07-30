@@ -22,19 +22,19 @@
 
 
 
-### 💫 About Me
+###  About Me
 
 I am a passionate **Computer Science student** from Morocco with a deep interest in **Artificial Intelligence** and **Data Science**. I love building interactive dashboards, solving complex ML problems, and crafting seamless full-stack applications.
 
-- 🌱 **Currently Learning:** Advanced Deep Learning (PyTorch/TensorFlow ) & Spanish (A1-A2)
-- 👯 **Looking to Collaborate:** AI research, predictive modeling, and applied Data Science projects
-- 🤝 **Seeking Help With:** Scaling ML models and production-level deployment
-- 💬 **Ask Me About:** Python, Streamlit, PostgreSQL, and CRM/Analytics tools
-- ⚡ **Fun Fact:** I enjoy storytelling in fantasy worlds where logic meets imagination.
+-  **Currently Learning:** Advanced Deep Learning (PyTorch/TensorFlow ) & Spanish (A1-A2)
+-  **Looking to Collaborate:** AI research, predictive modeling, and applied Data Science projects
+-  **Seeking Help With:** Scaling ML models and production-level deployment
+-  **Ask Me About:** Python, Streamlit, PostgreSQL, and CRM/Analytics tools
+-  **Fun Fact:** I enjoy storytelling in fantasy worlds where logic meets imagination.
 
 ---
 
-### 🛠️ Tech Stack & Tools
+###  Tech Stack & Tools
 
 <div align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -69,7 +69,7 @@ I am a passionate **Computer Science student** from Morocco with a deep interest
 
 ---
 
-### 📊 GitHub Analytics
+###  GitHub Analytics
 
 <div align="center">
   <img src="./assets/readme/stats_card.svg" alt="GitHub Stats" width="48%" />
@@ -84,7 +84,7 @@ I am a passionate **Computer Science student** from Morocco with a deep interest
 
 ---
 
-### 📫 Connect with Me
+###  Connect with Me
 
 <div align="center">
   <a href="mailto:redaheddad2004@gmail.com">
