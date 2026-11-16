@@ -71,10 +71,7 @@ I am a passionate **Computer Science student** from Morocco with a deep interest
 
 ###  GitHub Analytics
 
-<div align="center">
-  <img src="./assets/readme/stats_card.svg" alt="GitHub Stats" width="48%" />
-  <img src="./assets/readme/top_langs.svg" alt="Top Languages" width="48%" />
-</div>
+
 
 <div align="center">
   <img src="./assets/readme/streak_stats.svg" alt="GitHub Streak" width="100%" />
