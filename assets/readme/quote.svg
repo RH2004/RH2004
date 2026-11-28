@@ -66,8 +66,9 @@
     
         </style>
         <div class="container">
-          <h3>The general tendency is to over-design the second system, using all the ideas and frills that were cautiously sidetracked on the first one.</h3>
-          <p>- Fred Brooks</p>
+          <h3>I think the best way to make JavaScript better would be to
+make it smaller. If we could just get it down to what it does really well and remove the features that add little or no value, it’s actually a better language.</h3>
+          <p>- Douglas Crockford</p>
         </div>
       </div>
     </foreignObject>
